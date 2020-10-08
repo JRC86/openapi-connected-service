@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="DmitryPavlov.OpenApiConnectedService.13263952-1111-3333-2017-BA783BFD905A" Version="1.2.1" Language="en-US" Publisher="Dmitry Pavlov" />
+        <Identity Id="DmitryPavlov.OpenApiConnectedService.13263952-1111-3333-2017-BA783BFD905A" Version="1.2.2" Language="en-US" Publisher="Dmitry Pavlov" />
         <DisplayName>OpenAPI (Swagger) Connected Service</DisplayName>
         <Description>Connected service for Visual Studio to generate OpenAPI (Swagger) web service reference.</Description>
         <MoreInfo>https://github.com/dmitry-pavlov/openapi-connected-service</MoreInfo>
@@ -17,7 +17,7 @@
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-        <Dependency d:Source="Installed" Id="ConnectedServices.897486C9-63BD-48D3-8A33-CB770FBD0723" DisplayName="Microsoft Connected Services" Version="[15.9.81.48455,16.0)" />
+        <Dependency d:Source="Installed" Id="ConnectedServices.897486C9-63BD-48D3-8A33-CB770FBD0723" DisplayName="Microsoft Connected Services" Version="[15.9.81.48455,17.0)" />
     </Dependencies>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
